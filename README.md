@@ -34,3 +34,7 @@ xxx@xxx:~/BestDailyWallpaper$ sudo sh ./install
     <options>zoom</options>
   </wallpaper>
 ```
+
+## bug not fixed
+
+似乎开始时间从晚上11:00开始记时，不知道问题原因
