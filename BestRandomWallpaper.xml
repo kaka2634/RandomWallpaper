@@ -1,0 +1,98 @@
+<background>
+<starttime>
+<year>2017</year>
+<month>02</month>
+<day>18</day>
+<hour>0</hour>
+<minute>0</minute>
+<second>00</second>
+</starttime>
+
+<!-- This animation will start at midnight. -->
+  <static>
+    <duration>21600.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/10.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/10.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/01.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/01.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/01.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/02.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/02.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/02.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/03.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/03.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/03.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/04.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/04.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/04.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/05.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/05.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/05.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/06.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/06.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/06.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/07.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/07.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/07.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/08.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/08.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/08.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/09.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/09.jpg</file>
+  </static>
+<!-- it is now midnight -->
+</background>

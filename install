@@ -1,0 +1,121 @@
+#!/bin/sh
+
+xml='BestRandomWallpaper.xml'
+year=`date +%Y`
+month=`date +%m`
+day=`date +%d`
+hour='0'
+minute='0'
+
+dir='/usr/share/backgrounds/Randomwallpaper'
+
+cat <<END_OF_XML > $xml
+<background>
+<starttime>
+<year>$year</year>
+<month>$month</month>
+<day>$day</day>
+<hour>$hour</hour>
+<minute>$minute</minute>
+<second>00</second>
+</starttime>
+
+<!-- This animation will start at midnight. -->
+  <static>
+    <duration>21600.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/10.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/10.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/01.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/01.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/01.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/02.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/02.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/02.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/03.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/03.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/03.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/04.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/04.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/04.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/05.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/05.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/05.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/06.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/06.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/06.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/07.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/07.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/07.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/08.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/08.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/Randomwallpaper/08.jpg</from>
+    <to>/usr/share/backgrounds/Randomwallpaper/09.jpg</to>
+  </transition>
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/Randomwallpaper/09.jpg</file>
+  </static>
+<!-- it is now midnight -->
+</background>
+END_OF_XML
+
+cp -R Randomwallpaper /usr/share/backgrounds/
+cp $xml $dir
+echo "XML background file generated: $dir/$xml"
+
+cp RandomWallpaper.xml /usr/share/gnome-background-properties/
+echo "Install Finished"
+echo "Use System Setting->Appearance to find this theme"
+
+###END INSTALL SCRIPT
